@@ -1,8 +1,12 @@
-# React + Vite
+# Gutar LA
+Este es un proyecto personal que tiene como enfoque aplicar conocimientos basicos en React.js
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Temas aplicados 🧷 
 
-Currently, two official plugins are available:
+1. Implementacion y uso de useState.
+1. Implementacion y uso de useEffect.
+2. Comportamiento y comunicacion entre componentes (Padre e hijo).
+3. Uso de UseMemo para optimizar calculos en base a computo, perimitiendo que la app no sea tan pesada. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+<img width="1445" alt="image" src="https://github.com/user-attachments/assets/35cb3c27-84ba-4f3a-8538-0ba661acc2a0" />
