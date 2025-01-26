@@ -1,5 +1,4 @@
 /* eslint-disable react/prop-types */
-import { useMemo } from "react";
 import { filePathImage } from "../data/constants.js";
 
 export const Header = ({
@@ -8,20 +7,9 @@ export const Header = ({
   increaseQuantity,
   decreaseQuantity,
   clearCart,
+  getTotalCart,
+  isEmpty,
 }) => {
-  //state derivado
-
-  // Cachea los resultados entre renders, es bueno, pero no abusar de el con mucha data
-  const isEmpty = useMemo(() => cart.length === 0, [cart]);
-
-  const getTotalCart = useMemo(() => {
-    const total = cart.reduce((acc, item) => {
-      acc += item.price * item.quantity;
-      return acc;
-    }, 0);
-    return total;
-  }, [cart]);
-
   return (
     <header className="py-5 header">
       <div className="container-xl">
